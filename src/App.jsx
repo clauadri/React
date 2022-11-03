@@ -1,22 +1,26 @@
 import "./App.css";
-import { CV } from "./utils/CV";
+import CV from "./utils/CV";
 import MyData from "./components/MyData";
 import About from "./components/About";
-import "./components/MyData.css";
+
 
 const App = () => {
   const { myData } = CV;
 
   return (
-    <div className="App">
-      <nav></nav>
-      <main className="Main">
-        <section className="Data">
+    <div className="app">
+      <nav className="nav-bar">
+      </nav>
+      <aside className="aside">
+        <section>
           <MyData info={myData} />
         </section>
-        <section className="About">
+        <section>
           <About aboutMe={myData.aboutMe} />
         </section>
+      </aside>
+      <main>
+        
       </main>
     </div>
   );

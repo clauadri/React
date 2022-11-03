@@ -1,4 +1,4 @@
-
+import "./MyData.css";
 const MyData = ({ info }) =>{
     return (
         <div className="myData">
@@ -10,7 +10,8 @@ const MyData = ({ info }) =>{
                 <p>{info.city}</p>
                 <p>Email: {info.email}</p>
                 <p>{info.birthDate}</p>
-                <p>GitHub: {info.gitHub}</p>
+                <p>Teléfono: {info.tlf}</p>
+                <p><a href={info.gitHub}>GitHub</a></p>
             </div>
         </div>
     )

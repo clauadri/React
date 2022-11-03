@@ -1,9 +1,9 @@
-
+import "./About.css"
 
 const About = ({aboutMe}) => {
 
   return (
-    <div>
+    <div   className='about' >
     <h3>Información sobre mi</h3>
     {aboutMe.map((item)=>{
     return (
