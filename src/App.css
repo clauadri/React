@@ -3,4 +3,20 @@
 }
 .aside{
   width: 400px;
+  position: sticky;
 }
+.container{
+  display: flex;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /* flex-direction: column; */
+}
+.nav{
+  width: 100%;
+  
+  
+}
+

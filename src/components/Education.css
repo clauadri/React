@@ -1,0 +1,17 @@
+.education{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(249, 241, 230);
+    border-bottom: 0.5px solid rgb(204, 193, 193);
+
+}
+.education > h3 {
+    cursor: pointer; 
+}
+
+.info-style{
+    width: 100%;
+    border: 0.5px solid rgb(204, 193, 193);;
+}

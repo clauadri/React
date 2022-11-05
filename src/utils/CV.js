@@ -22,47 +22,63 @@ const CV = {
       {
         info: "Interés por aprender cosas nuevas, tanto prácticas como de conocimiento intelectual. Observador y atento.",
       },
-      
     ],
   },
   education: [
     {
-      name: "Master in physics",
-      date: "1985",
-      where: "MIT",
+      name: "Bachillerato científico",
+      date: "2008-2010",
+      where: "Colegio La Concepción (Ontinyent-Valencia)",
     },
     {
-      name: "Aeronautical Engineering",
-      date: "1995",
-      where: "ATI Vaughn College",
+      name: "Graduado en Ingeniería Eléctrica",
+      date: "2010-2014",
+      where: "Universidad Politécnica de Valencia (Valencia - España)",
     },
     {
-      name: "Weapons Engineer",
-      date: "1998",
-      where: "Firearm Collegue, Queens",
+      name: "Máster en Ingeniería Mecatrónica",
+      date: "2014-2016",
+      where: "Escuela Técnica Superior de Ingeniería del Diseño (ETSID)",
     },
+    {
+      name: "Fullstack developer",
+      date: "2022",
+      where: "Upgrade Hub",
+    }
   ],
   experience: [
     {
-      name: "Consultant",
-      date: "01/01/2013 – Nowadays",
-      where: "S.H.I.E.L.D",
+      name: "Programación robots",
+      date: "01/05/2016 – 01/08/2016",
+      where: "EA Global Solutions",
       description:
-        "It builds the helicarriers used by S.H.I.E.L.D. It produces the Quinjets used by the Avengers.",
+        "Programación de robots abb y kuka enfocados a soldadura de carrocerias de coches.",
     },
     {
-      name: "CEO",
-      date: "01/01/2000 – 28/02/2012",
-      where: "Stark Industries",
+      name: "Electronica Maquinaria",
+      date: "01/12/2016 – 1/02/2017",
+      where: "Visdel",
       description:
-        "Manage the company, which is a multi-billion dollar multinational corporation that develops and manufactures advanced weapon and defense technologies. The company manufactures the armor worn by Iron Man and War Machine.",
+        "Diseño de maquinaria para el sector textil.",
     },
   ],
-  languages: {
-    language: "English",
-    wrlevel: "Native",
-    splevel: "Native",
-  },
+  languages: [
+    {
+      language: "English",
+      wrlevel: "B2",
+      splevel: "B2",
+    },
+    {
+      language: "Spanish",
+      wrlevel: "Native",
+      splevel: "Native",
+    },
+    {
+      language: "Romanian",
+      wrlevel: "Native",
+      splevel: "Native",
+    },
+  ],
   habilities: [
     "Robotics",
     "Robot Programming",
@@ -72,6 +88,6 @@ const CV = {
     "Money",
     "Dating",
     "Saving the world",
-  ]
+  ],
 };
 export default CV;

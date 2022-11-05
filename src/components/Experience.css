@@ -1,0 +1,10 @@
+.experience{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(249, 241, 230);
+}
+.experience > h3 {
+    cursor: pointer;
+}
