@@ -3,12 +3,13 @@ const CV = {
     name: "Claudiu Adrian",
     lastName: "Pasca",
     adress: "en marte",
-    city: "Ontinyent",
+    city: "Ontinyent ( Valencia )",
     email: "adripa11@gmail.com",
     birthDate: "13/06/1992",
     tlf: 333222333,
     image: "https://i.imgur.com/ZQAkED3.png",
     gitHub: "https://github.com/clauadri",
+    linkedin:"https://www.linkedin.com/login/es?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin",
     aboutMe: [
       {
         info: "Buenas relaciones interpersonales. Flexible, comprensivo y razonable. Buen compañero",
@@ -48,7 +49,7 @@ const CV = {
   ],
   experience: [
     {
-      name: "Programación robots",
+      name: "Programador de robots",
       date: "01/05/2016 – 01/08/2016",
       where: "EA Global Solutions",
       description:
@@ -88,6 +89,7 @@ const CV = {
     "Money",
     "Dating",
     "Saving the world",
+    "puto amo"
   ],
 };
 export default CV;

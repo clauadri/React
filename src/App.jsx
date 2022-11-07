@@ -6,7 +6,7 @@ import Education from "./components/Education";
 import Experience from "./components/Experience";
 import Languages from "./components/Languages";
 import Habilities from "./components/Habilities";
-
+import { Route, Routes } from "react-router-dom";
 
 const { myData, education, experience, languages, habilities } = CV;
 const App = () => {
@@ -17,13 +17,13 @@ const App = () => {
           <section>
             <MyData info={myData} />
           </section>
-          <section>
-            <About aboutMe={myData.aboutMe} />
-          </section>
         </aside>
         <main className="main">
           <nav className="nav">
-            <div className="div-nav">
+            
+              <section>
+               <About aboutMe={myData.aboutMe} />
+              </section>
               <section>
                 <Education education={education} />
               </section>
@@ -36,7 +36,7 @@ const App = () => {
               <section>
                 <Habilities habilities={habilities} />
               </section>
-            </div>
+            
           </nav>
         </main>
       </div>
