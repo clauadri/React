@@ -12,17 +12,17 @@ const CV = {
     linkedin:"https://www.linkedin.com/login/es?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin",
     aboutMe: [
       {
-        info: "Buenas relaciones interpersonales. Flexible, comprensivo y razonable. Buen compañero",
+        info: "Mi nombre es Claudiu Adrian Pasca, tengo 30 años y soy de Ontinyent(Valencia)." ,
       },
       {
-        info: "Responsable, organizado, honrado. Buena capacidad de análisis,síntesis y resolución de problemas.",
+        info: "Estoy cursando el bootcamp Full Stack Developer en Upgrade Hub.",
       },
       {
-        info: "Interés por la actualización profesional y el aprendizaje práctico y de conocimientos en general.",
+        info: "Me considero una persona responsable, organizado, observadora y perseverante con capacidad de análisis y resolución de problemas",
       },
       {
-        info: "Interés por aprender cosas nuevas, tanto prácticas como de conocimiento intelectual. Observador y atento.",
-      },
+        info: "Interés por la actualización profesional, el trabajo en equipo y el aprendizaje práctico",
+      }
     ],
   },
   education: [
@@ -81,15 +81,13 @@ const CV = {
     },
   ],
   habilities: [
-    "Robotics",
-    "Robot Programming",
-    "Physics",
-    "Weaponery",
-    "Engineer",
-    "Money",
-    "Dating",
-    "Saving the world",
-    "puto amo"
+    "Programación de Robots",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "React",
+    "Node",
+    "MongoDb"
   ],
 };
 export default CV;

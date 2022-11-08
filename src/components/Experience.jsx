@@ -1,14 +1,15 @@
 import React, { useState } from "react";
 import "./Experience.css";
 import { FaBriefcase, FaDotCircle } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 const Experience = ({ experience }) => {
-  const [showExperience, setShowExperience] = useState(false);
-
+  const [showExperience, setShowExperience] = useState(true);
+  const navigate = useNavigate();
   return (
-    <div>
+    <>
       <div className="experience">
         <h3 onClick={() => setShowExperience(!showExperience)}>
-          <FaBriefcase /> Experiencia
+          <FaBriefcase />
         </h3>
         {showExperience ? (
           <div className="cont-style">
@@ -19,9 +20,15 @@ const Experience = ({ experience }) => {
                     <p>{item.date}</p>
                   </div>
                   <div>
-                    <p><FaDotCircle/> Puesto: {item.name}</p>
-                    <p><FaDotCircle/> Empresa: {item.where}</p>
-                    <p><FaDotCircle/> Descripción: {item.description}</p>
+                    <p>
+                      <FaDotCircle /> Puesto: {item.name}
+                    </p>
+                    <p>
+                      <FaDotCircle /> Empresa: {item.where}
+                    </p>
+                    <p>
+                      <FaDotCircle /> Descripción: {item.description}
+                    </p>
                   </div>
                 </div>
               );
@@ -31,7 +38,8 @@ const Experience = ({ experience }) => {
           <div></div>
         )}
       </div>
-    </div>
+      <button onClick={() => navigate("/")}>Volver al inicio</button>
+    </>
   );
 };
 
