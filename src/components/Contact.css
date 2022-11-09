@@ -1,0 +1,38 @@
+.form{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.form > label {
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+input[type=text],[type=email]{
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    width: 100%;
+}
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+.send{
+    background-color:#f8f8f8 ;
+    border-radius: 25px;
+    width: 70px;
+    height: 30px;
+}

@@ -13,6 +13,14 @@ html,body{
 .container {
   display: flex;
   height: 100%;
+  position: relative;
+  justify-content: space-around;
+
+}
+.aside{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
 }
 .main {
   display: flex;
@@ -21,7 +29,7 @@ html,body{
   flex-direction: column;
 }
 .home{
-  height: 900px;
+  height: 850px;
   display: flex;
   justify-content: center;
   align-items:center;

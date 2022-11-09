@@ -14,6 +14,8 @@ const Navbar = () => {
         </NavLink>
         <NavLink to="habilities" activeclassname={"active"}><h3>  Habilidades Técnicas</h3>
         </NavLink>
+        <NavLink to="contact" activeclassname={"active"}><h3>  Contacto</h3>
+        </NavLink>
       </div>
     </nav>
   );
